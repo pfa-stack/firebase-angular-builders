@@ -1,0 +1,12 @@
+{
+  "title": "Multiple Builder Build",
+  "description": "Multiple Builder Build description",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "A simple property"
+    }
+  },
+  "required": ["name"]
+}

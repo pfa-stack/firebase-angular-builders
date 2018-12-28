@@ -1,0 +1,18 @@
+if: commit_message !~ /^(docs|style|chore)(\(.*\))?:/
+
+language: node_js
+cache:
+  directories:
+    - ~/.npm
+notifications:
+  email: false
+node_js:
+  - 'node'
+  - '10'
+  - '9'
+  - '8'
+after_success:
+  - yarn travis-deploy-once "npm run semantic-release"
+branches:
+  except:
+    - /^v\d+\.\d+\.\d+$/

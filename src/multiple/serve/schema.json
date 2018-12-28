@@ -1,0 +1,12 @@
+{
+  "title": "Multiple Builder Serve",
+  "description": "Multiple Builder Serve description",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "A simple property"
+    }
+  },
+  "required": ["name"]
+}
