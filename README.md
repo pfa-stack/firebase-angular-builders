@@ -3,7 +3,7 @@ This project was generated using [@pfa/schematics](https://www.npmjs.com/package
 # Angular builders for Firebase Functions
 
 [![latest](https://img.shields.io/npm/v/%40pfa%2Ffirebase-angular-builders/latest.svg)](https://npmjs.com/package/@pfa/firebase-angular-builders)
-[![Build Status](https://travis-ci.com/pfa-stack/firebase-angular-builders.svg?branch=master)](https://travis-ci.org/pfa-stack/firebase-angular-builders)
+[![Build Status](https://travis-ci.com/pfa-stack/firebase-angular-builders.svg?branch=master)](https://travis-ci.com/pfa-stack/firebase-angular-builders)
 [![Dependency Status](https://david-dm.org/pfa-stack/schematics.svg)](https://david-dm.org/pfa-stack/schematics)
 [![devDependency Status](https://david-dm.org/pfa-stack/schematics/dev-status.svg)](https://david-dm.org/pfa-stack/schematics?type=dev)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
