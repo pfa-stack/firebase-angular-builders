@@ -1,4 +1,4 @@
 import { createBuilder } from '@angular-devkit/architect/src/index2';
-import { builder } from './builder';
+import { handler } from './handler';
 
-export default createBuilder(builder);
+export default createBuilder(handler);

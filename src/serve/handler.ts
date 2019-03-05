@@ -9,7 +9,7 @@ interface Options extends JsonObject {
   name: string;
 }
 
-export const builder: BuilderHandlerFn<Options> = (input, context) => {
+export const handler: BuilderHandlerFn<Options> = (input, context) => {
   context.logger.debug(input.name);
 
   const output: BuilderOutput = {
