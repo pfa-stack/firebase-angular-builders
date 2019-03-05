@@ -1,15 +1,15 @@
 {
   "$schema": "./node_modules/@angular-devkit/architect/src/builders-schema.json",
   "builders": {
-    "multiple-build": {
-      "class": "./src/multiple/build/multiple-build.builder",
-      "schema": "./src/multiple/build/schema.json",
-      "description": "Multiple Builder Build description"
+    "build": {
+      "implementation": "./src/build/build.builder",
+      "schema": "./src/build/schema.json",
+      "description": "Firebase Functions Build builder"
     },
-    "multiple-serve": {
-      "class": "./src/multiple/serve/multiple-serve.builder",
-      "schema": "./src/multiple/serve/schema.json",
-      "description": "Multiple Builder Serve description"
+    "serve": {
+      "implementation": "./src/serve/serve.builder",
+      "schema": "./src/serve/schema.json",
+      "description": "Firebase Functions Serve Builder"
     }
   }
 }

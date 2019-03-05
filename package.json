@@ -1,5 +1,5 @@
 {
-  "name": "firebase-angular-builders",
+  "name": "@pfa/builders",
   "version": "0.0.0-development",
   "description": "firebase-angular-builders description",
   "main": "src/index.js",
@@ -12,9 +12,9 @@
     "semantic-release": "semantic-release"
   },
   "dependencies": {
-    "@angular-devkit/architect": "~0.10.1",
+    "@angular-devkit/architect": "0.14.0-beta.4",
     "@angular-devkit/build-webpack": "~0.10.1",
-    "rxjs": "6.3.3"
+    "rxjs": "6.4.0"
   },
   "devDependencies": {
     "@types/jasmine": "2.8.9",

@@ -1,6 +1,6 @@
 {
-  "title": "Multiple Builder Serve",
-  "description": "Multiple Builder Serve description",
+  "title": "Build Firebase Functions Builder",
+  "description": "Build Firebase Functions project within your Angular workspace",
   "type": "object",
   "properties": {
     "name": {
