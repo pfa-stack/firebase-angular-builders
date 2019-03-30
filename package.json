@@ -1,5 +1,5 @@
 {
-  "name": "firebase-angular-builders",
+  "name": "@pfa/builders",
   "version": "0.0.0-development",
   "description": "firebase-angular-builders description",
   "main": "src/index.js",
@@ -13,10 +13,17 @@
   },
   "dependencies": {
     "@angular-devkit/architect": "~0.10.1",
+    "@angular-devkit/build-angular": "0.13.7",
     "@angular-devkit/build-webpack": "~0.10.1",
-    "rxjs": "6.3.3"
+    "@angular-devkit/schematics": "7.3.7",
+    "chromedriver": "2.46.0",
+    "fs-extra": "7.0.1",
+    "nightwatch": "1.0.19",
+    "rxjs": "6.3.3",
+    "tree-kill": "1.2.1"
   },
   "devDependencies": {
+    "@types/fs-extra": "5.0.5",
     "@types/jasmine": "2.8.9",
     "@types/node": "8.10.36",
     "commitizen": "^3.0.5",

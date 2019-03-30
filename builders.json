@@ -10,6 +10,11 @@
       "class": "./src/multiple/serve/multiple-serve.builder",
       "schema": "./src/multiple/serve/schema.json",
       "description": "Multiple Builder Serve description"
+    },
+    "nightwatch": {
+      "class": "./src/nightwatch/nightwatch.builder",
+      "schema": "./src/nightwatch/schema.json",
+      "description": "Nightwatch Angular builder"
     }
   }
 }

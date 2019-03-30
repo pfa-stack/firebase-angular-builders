@@ -1,0 +1,25 @@
+{
+  "title": "Nightwatch",
+  "description": "Nightwatch Angular builder",
+  "type": "object",
+  "properties": {
+    "nightwatchConfig": {
+      "type": "string",
+      "description": "The path of the Nightwatch configuration json file"
+    },
+    "tsConfig": {
+      "type": "string",
+      "description": "The path of the Nightwatch tsconfig configuration json file"
+    },
+    "devServerTarget": {
+      "type": "string",
+      "description": "Dev server target to run tests against."
+    },
+    "watch": {
+      "type": "boolean",
+      "description": "Recompile and run tests when files change.",
+      "default": false
+    }
+  },
+  "required": ["nightwatchConfig", "tsConfig"]
+}
